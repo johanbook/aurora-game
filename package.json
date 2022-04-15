@@ -1,0 +1,20 @@
+{
+  "name": "aurora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier -w src",
+    "start": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.3",
+    "prettier": "^2.6.2"
+  }
+}

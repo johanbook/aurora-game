@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build . -t johanbook/aurora:latest
+docker push johanbook/aurora:latest
